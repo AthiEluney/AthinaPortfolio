@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">    
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="#">Inicio</a>
+        <a href="#sobre_mi">Sobre mi</a>
+        <a href="#proyecto">Proyectos</a>
+        <a href="#skill">Habilidades</a>
+        <a href="#contacto">Contactos</a>
+        <a class="cv" download="CV Descarga" href="CV/CV-Arancibia-Athina.pdf">Descargar CV</a>
+    </nav>
+    </header>
+<div class="encabezado-img">
+    <div class="img">
+    <img src="imagenes/imagen-de-presentacion.jpg" width="340px" height="340px">
+<h1>Arancibia Athina Eluney</h1>
+</div>
+<p>Tecnico en programacion</p>
+</div>
+<section class="video" id="sobre_mi">
+        <div class="contenido">
+        <h1>Sobre mi</h1>
+         <p>Soy una persona responsable y trabajo bien en equipo, ademas de los conocimientos que recibi que se destacan en la creacion de paginas web, proyectos de robotica con Arduino y estoy interesada en recibir mi primer trabajo sobre mis estudios</p>
+       <br>
+        </div>
+
+        <video src="imagenes/video-de-presentacion.mp4" controls></video>
+
+</section>
+
+<center>
+ <h1>proyectos Realizados</h1> 
+</center>
+ <section class="proyec" id="proyecto">
+  <div class="container">
+    <div class="card">
+        <img src="imagenes/AT-AT.jpeg" alt="">
+        <h4>AT-AT</h4>
+        <p>Un robot inspirado en la saga de peliculas de Star Wars, fue un proyecto echo en el año 2023, el funcionamiento era de que pueda caminar sobre sos 4 patas,  programdo con Arduino.</p>
+    </div>
+ 
+    <div class="card">
+        <img src="imagenes/piernas.jpeg" alt="">
+        <h4>Robot Piernas</h4>
+        <p>Robot de unas piernas con la funcionalidad de poder caminar, este podra manejarse mediante movimientos que un humano realize.</p>
+
+    </div>
+ 
+    <div class="card">
+        <img src="imagenes/jueguito-unity.jpeg" alt="">
+        <h4>Juego Arcade</h4>
+        <p>Un juego hecho en Godot creado para un arcade, este juego esta inspirada en el famoso juego Mario-Bros</p>
+    </div>
+  </div>
+  
+</section>
+<br>
+<br>
+<br>
+<center>
+<h1>Mis habilidades</h1>
+</center>
+<section class="skill" id="skill">
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="imagenes/html-y-css.jpg">
+            </div>
+            <div class="content">
+                <h3>HTML y CSS</h3>
+                <p>Me especialice en HTML y CSS desde 2022 hasta actualidad y me sigo educando sobre estos lenguajes</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src="imagenes/imagen-arduino.png">
+            </div>
+            <div class="content">
+                <h3>Arduino</h3>
+                <p>Programacion de distintos proyectos en Arduino de robotica.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="imgBx">
+                <img src="imagenes/mysql.png">
+            </div>
+            <div class="content">
+                <h3></h3>
+                <p>Creacion BD, relaciones entre las tablas</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contactos" id="contacto">
+    <h1>Contactame</h1>
+    <form action="https://formsubmit.com/athinaarancibia@gmail.com" method="post">
+         <input type="text" class="input-50" placeholder="Nombre" name="Nombre" required>
+        <input type="email" class="input-50" placeholder="Email" name="Email" required>
+        <input type="text" class="input-50" placeholder="asunto" name="asunto" required>
+        <input type="text" class="input-100" placeholder="Mensaje" name="Mensaje" required>
+        <br>
+        
+        <buttom class="boton" name="enviar">Enviar Mensaje</buttom>
+        
+        <input type="hidden" name="_next" value="https://portfolioarancibia.netlify.app/">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+    <div class="contact">
+
+    </div>
+</section>
+
+
+<section>
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="https://www.instagram.com/athi_aran/" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://www.facebook.com/athina.arancibia.7?locale=es_LA" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://web.whatsapp.com/" class="icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://www.linkedin.com/in/athina-arancibia-06168a236/" class="icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://github.com/AthiEluney" class="icon">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="menu-elem">
+                <a href="#header" class="menu-icon">Inicio</a>
+            </li>
+            <li class="menu-elem">
+                <a href="#sobre_mi" class="menu-icon">Sobre mi</a>
+            </li>
+            <li class="menu-elem">
+                <a href="#proyecto" class="menu-icon">Proyectos</a>
+            </li>
+            <li class="menu-elem">
+                <a href="#skill" class="menu-icon">Habilidades</a>
+            </li>
+            <li class="menu-elem">
+                <a href="#contacto" class="menu-icon">Contactos</a>
+            </li>
+        </ul>
+        <p class="text">@2024 | Todos los derechos reservados</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</section>
+</body>
+</html>
